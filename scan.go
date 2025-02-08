@@ -3,11 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var nilai int
+	var nama string
+	var umur int
 
-	// fmt.Scanln(&nilai)
-	// fmt.Println("umur mu : ", nilai)
-
-	fmt.Scanf("%d", &nilai)
-	fmt.Println("umur mu : ", nilai)
+	fmt.Print("masukan nama dan umur mu : ")
+	fmt.Scan(&nama, &umur)
+	fmt.Printf("nama : %s, umur %d", nama, umur)
 }
