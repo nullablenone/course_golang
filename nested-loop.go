@@ -4,13 +4,13 @@ import "fmt"
 
 func main() {
 
-	for i := 1; i <= 3; i++ { // Loop luar
+	n := 5 // Tinggi segitiga
 
-		for j := 1; j <= 3; j++ { // Loop dalam
-			fmt.Printf("%d ", j)
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= i; j++ {
+			fmt.Print("* ")
 		}
-		fmt.Println() // Ganti baris setelah satu loop dalam selesai
-		
+		fmt.Println()
 	}
 
 }
