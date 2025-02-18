@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func status (nama string, umur int)(string, int){
-	return nama, umur
+	return nama, umur	
 	
 }
 
