@@ -10,7 +10,7 @@ func cekMinuman(nama string) (string, error) {
 	if nama == "air putih" {
 		return "Nih, air putihnya!", nil
 	} else {
-		return "", errors.New("minuman tidak tersedia") 
+		return "", errors.New("minuman tidak tersedia")
 	}
 }
 
